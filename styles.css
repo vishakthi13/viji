@@ -1,53 +1,93 @@
-/* styles.css */
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: black;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-h1 {
-  text-align: center;
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
 
-input {
-  width: 70%;
-  padding: 8px;
-  margin-right: 8px;
+header h1 {
+    margin: 0;
 }
 
-button {
-  padding: 8px 16px;
-  background-color: #4caf50;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.main-content {
+    background-color: #f4f4f4;
+    padding: 50px 0;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
+.main-content h2 {
+    color: #333;
 }
 
-li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid #ccc;
-  padding: 8px 0;
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
-.checkbox {
-  margin-right: 6px;
+.featured-speakers {
+    padding: 50px 0;
+}
+
+.speaker {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.speaker img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.registration {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.registration form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.registration label {
+    margin-bottom: 5px;
+}
+
+.registration input {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.registration button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
