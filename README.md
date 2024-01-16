@@ -1,1 +1,1 @@
-Company Member Team web page 
+The objective is to create a responsive web page for the Company Member Team Page based on the design reference provided in the attached file named "Designed-1." The implementation will involve using HTML and CSS to bring the design to life, ensuring responsiveness across various devices. This project serves as an opportunity to showcase coding skills and creativity while adhering to the specified design elements.
