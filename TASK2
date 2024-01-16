@@ -1,20 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TASK THREE </title>
-  <link rel="stylesheet" href="3style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Summit 2024</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <div class="container">
-    <h1>Task List</h1>
-    <div>
-      <input type="text" id="taskInput" placeholder="Enter your task...">
-      <button onclick="addTask()">Add Task</button>
-    </div>
-    <ul id="taskList"></ul>
-  </div>
-  <script src="script.js"></script>
+    <header>
+        <div class="container">
+            <h1>Tech Summit 2024</h1>
+            <p> Future of Technology</p>
+        </div>
+    </header>
+
+    <section class="main-content">
+        <div class="container">
+            <h2>About the Event</h2>
+            <p>Leadership & Innovation ·
+		The measure of success is not just being good, but going beyond expectations · Maintenance - Support IT Consulting Application Development Application Management</p>
+            <a href="#register" class="cta-button">Register Now</a>
+			<p>
+  I'm creating a link to
+  <a href="https://www.google.com/maps/place/SkCar+buy%26+sale/@11.9356901,79.8019087,14z/data=!4m6!3m5!1s0x3a536106ffd7174b:0x4039094da9edea7d!8m2!3d11.9419252!4d79.7932398!16s%2Fg%2F11fcsqff35?entry=ttu"> SkCar</a>.
+</p>
+
+        </div>
+    </section>
+
+    <section class="featured-speakers">
+        <div class="container">
+            <h2>Featured Speakers</h2>
+            <div class="speaker">
+                <img src="speaker1.jpg" alt="Speaker 1">
+                <h3>VIJAYASRI</h3>
+                <p>Founder, skTech</p>
+            </div>
+            <div class="speaker">
+                <img src="speaker2.jpg" alt="Speaker 2">
+                <h3>SRI</h3>
+                <p>CEO, Tech Innovations</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="register" class="registration">
+        <div class="container">
+            <h2>Register Now</h2>
+            <p>Don't miss out on the opportunity to be part of this groundbreaking event. Reserve your spot today!</p>
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit" class="cta-button">Register</button><link >
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SksoftTech.in11 Summit. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
+
 </html>
