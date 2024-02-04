@@ -1,1 +1,9 @@
-The objective is to create a responsive web page for the Company Member Team Page based on the design reference provided in the attached file named "Designed-1." The implementation will involve using HTML and CSS to bring the design to life, ensuring responsiveness across various devices. This project serves as an opportunity to showcase coding skills and creativity while adhering to the specified design elements.
+OTT Platform Website Clone! In this project, you'll be challenged to
+recreate the design and functionality of any OTT (Over-The-Top) platform website like Netflix,
+NETFLIX,BSVALUE, etc. using HTML, CSS, and JavaScript. This task aims to test your skills in
+front-end development and user interface design.
+Project Details:
+Technologies:
+• HTML: Structure your web pages.
+• CSS: Style your website for a visually appealing look.
+• JavaScript: Add dynamic and interactive functionalities
