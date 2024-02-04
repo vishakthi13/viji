@@ -1,72 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title> vishainfotech.in  </title>
+    <link rel="stylesheet" href="4.styles.css">
+    <title>OTT Platform </title>
+ 
 </head>
 <body>
+  
     <header>
-        <h1>vishainfotech.in  </h1>
-		<h1>Company Member Team</h1>
+        <h1>OTT Platform</h1>
+		        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Movies </li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Search</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
-  
-        <section class="team-members 1">
-		            <div class="member"/div>
-					<div class="banner">
-            </div>
-			<h2>|> Ramsharan <| </h2>
-                <p>{Position:data management}</p>
-     
-        </section>
-    </main>
-	<main>
-	
-        <section class="team-members 2">
-		            <div class="member">
-                <alt=" Member 2">
-                <h2>|> shakthi <| </h2>
-                <p>{Position:Frontend Developer}</p>
-            </div>
-            
-        </section>
-    </main><main>
-        
-        <section class="team-members 3">
-		            <div class="member">
-                <alt="Member 3">
-                <h2>|> sharan <| </h2>
-                <p>{Position: java Developer}</p>
-            </div>
-            
-        </section>
-    </main><main>
-       
-        <section class="team-members 4">
-		            <div class="member">
-                 <alt="Member 4">
-                <h2>|> vijayasri<| </h2>
-                <p>{Position: UI/UX} </p>
-            </div>
-           
-        </section>
-    </main><main>
-     
-        <section class="team-members 5">
-		            <div class="member">
-                <alt="Member 5">
-                <h2> |> viji <| </h2>
-                <p>{Position: backend Developer}</p>
-            </div>
-           
-        </section>
-  
+    <section class="main-content">
+        <div class="featured">
+            <h2>Featured Movies</h2>
+  <a href="https://www.netflix.com/in/"> NETFLIX</a>
+    <div class="banner-container">
+        <img src="nflxlogo.PNG" alt="Advertisement 1" class="banner" id="adBanner">
+    </div>
+</p>
+            <!-- Featured movies content here -->
+        </div>
+
+        <div class="recommended">
+            <h2>Recommended Shows</h2>
+			<a href="https://bsvalue.com/home"> bsvalue </a>
+			  <div class="banner-container">
+        <img src="blacksheep-tv.PNG" alt="Advertisement 1" class="banner" id="adBanner">
+    </div>
+            <!-- Recommended shows content here -->
+        </div>
+    </section>
+
     <footer>
-     
+        <p>&copy; 2024 OTT Platform. All rights reserved.</p>
     </footer>
+
+    <script src="task 4.js"></script>
 </body>
 </html>
 
